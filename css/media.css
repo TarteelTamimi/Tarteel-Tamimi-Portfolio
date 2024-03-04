@@ -1,0 +1,299 @@
+@media(max-width: 1200px) {
+    .work-cards {
+        min-height: 900px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+@media(max-width: 900px) {
+    .outer-sidebar {
+        position: static;
+        width: 80%;
+        margin-top: 230px;
+        margin-left: 88px;
+        margin-bottom: 0;
+    }
+
+    .tarteel-img {
+        position: absolute;
+        top: 100px;
+        z-index: 1;
+    }
+
+    .info-box {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .main {
+        width: 90%;
+        margin: auto;
+    }
+
+    .sections {
+        width: 90%;
+        margin: auto;
+    }
+
+    .all {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 735px) {
+    .outer-sidebar {
+        margin-top: 210px;
+        margin-left: 72px;
+    }
+
+    .tarteel-img {
+        position: absolute;
+        top: 80px;
+        z-index: 1;
+    }
+
+    header {
+        padding: 3px 35px 3px 7px;
+    }
+}
+
+@media(max-width: 655px) {
+    header {
+        padding: 1px 20px 1px 5px;
+    }
+
+    .outer-sidebar {
+        margin-top: 210px;
+        margin-left: 60px;
+    }
+
+    .navigation a {
+        font-size: 1.2em;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 10px
+    }
+
+    .tech>div {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        grid-gap: 10px;
+    }
+
+    .soft>div {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        grid-gap: 10px;
+    }
+}
+
+@media(max-width: 545px) {
+    body {
+        font-size: 12px;
+    }
+
+    .outer-sidebar {
+        margin-top: 210px;
+        margin-left: 50px;
+    }
+}
+
+@media(max-width: 450px) {
+    .card-container {
+        width: 300px;
+        height: 350px;
+        perspective: 800px;
+    }
+
+    .work-img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .edu-exp {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        min-height: 600px;
+        margin-bottom: 0;
+    }
+
+    .skills {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        min-height: 150px;
+        width: 100%;
+        padding: 20px;
+        min-height: 800px;
+        margin-top: 0;
+    }
+
+    .edu,
+    .exp {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .tech,
+    .soft {
+        width: 90%;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    #dark-mood-icon-box {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+@media(max-width: 435px) {
+    .navigation a {
+        font-size: 1.2em;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 10px
+    }
+
+    .cards {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 400px;
+    }
+
+    .outer-sidebar {
+        margin-top: 210px;
+        margin-left: 40px;
+    }
+
+    .edu-exp {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        min-height: 700px;
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 400px) {
+    .navigation a {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .card-container {
+        width: 90%;
+        min-height: 250px;
+        perspective: 800px;
+    }
+
+    .work-img {
+        width: 90%;
+        height: 60%;
+    }
+
+    .work-cards {
+        min-height: 900px;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 15px;
+    }
+
+    .work-card h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    .back h3 {
+        margin-top: 50px;
+        font-size: 1.5em;
+        padding-top: 40px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media(max-width: 355px) {
+    .navigation a {
+        font-size: 0.8em;
+    }
+
+    header {
+        padding: 2px 15px 2px 3px;
+    }
+
+    .logo {
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+
+    .social-icons {
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .icon-box {
+        width: 40px;
+        height: 40px;
+        border-radius: 8.27px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .outer-sidebar {
+        margin-top: 210px;
+        margin-left: 30px;
+    }
+
+    .edu-exp {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        min-height: 950px;
+        margin-bottom: 0;
+    }
+
+    .back h3 {
+        margin-top: 50px;
+        font-size: 1.2em;
+        padding-top: 40px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .work-card h2 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+}

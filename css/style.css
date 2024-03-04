@@ -1,0 +1,575 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --clr-1: #FFFFFF;
+    --clr-2: #F3F2EC;
+    --clr-3: #F6EEDB;
+    --clr-4: #8E9B6D;
+    --clr-5: #66754C;
+}
+
+.dark-mood {
+    --clr-1: #2D2B26;
+    --clr-2: #66754C;
+    --clr-3: #8E9B6D;
+    --clr-4: #F6EEDB;
+    --clr-5: #F3F2EC;
+}
+
+@font-face {
+    font-family: logo-font;
+    src: url(../font/logo-font.otf);
+}
+
+header {
+    background-color: var(--clr-1);
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px 10px 20px;
+}
+
+body {
+    background-color: var(--clr-1);
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border-top: 2px solid var(--clr-5);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+legend {
+    margin-left: 3%;
+    font-size: 2em;
+    color: var(--clr-5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+fieldset {
+    margin: 2%;
+    border: 3px solid var(--clr-5);
+    border-radius: 20px;
+    min-height: 30em;
+}
+
+.dark-mood-icon {
+    font-size: 30px;
+    color: var(--clr-2);
+    margin: auto;
+}
+
+#dark-mood-icon-box {
+    width: 70px;
+    height: 70px;
+    background-color: var(--clr-5);
+    border-radius: 50%;
+    position: fixed;
+    z-index: 999;
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#dark-mood-icon-box:hover {
+    width: 73px;
+    height: 73px;
+
+    .dark-mood-icon {
+        color: var(--clr-2);
+    }
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--clr-5);
+    font-family: logo-font;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.navigation a {
+    color: var(--clr-5);
+    font-size: 1.2em;
+    font-family: cursive;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px
+}
+
+.navigation a:hover {
+    color: var(--clr-4);
+    font-size: 1.3em;
+    background-color: var(--clr-2);
+}
+
+.outer-sidebar {
+    width: 30%;
+    min-height: 30em;
+    background-color: var(--clr-2);
+    border-radius: 20px;
+    margin: 30px;
+    margin-top: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: fixed;
+}
+
+.tarteel-img {
+    width: 226px;
+    height: 215.04px;
+    border-radius: 20px;
+    position: absolute;
+    top: -125px;
+    z-index: 1;
+}
+
+.social-icons {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    background-color: var(--clr-3);
+    border-radius: 8.27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-box:hover {
+    width: 65px;
+    height: 65px;
+
+    .icon {
+        color: var(--clr-4);
+    }
+}
+
+.icon {
+    color: var(--clr-5);
+    font-size: 25px;
+}
+
+.mid-sidebar {
+    min-height: 445px;
+    width: 90%;
+    margin-top: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.mid-sidebar h2 {
+    color: var(--clr-5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mid-sidebar h5 {
+    color: var(--clr-4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.inner-sidebar {
+    background-color: var(--clr-3);
+    border-radius: 20px;
+    width: 90%;
+    min-height: 290px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.info-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-box p {
+    color: var(--clr-4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.info-box a {
+    color: var(--clr-5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.info-head-data {
+    margin-right: 50px;
+}
+
+.main {
+    width: 63%;
+    margin-left: 35%;
+    padding-top: 5%;
+}
+
+.sections {
+    min-height: 33.5em;
+    width: 100%;
+    background-color: var(--clr-2);
+    border-radius: 20px;
+}
+
+.about-me {
+    color: var(--clr-4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4em;
+    padding: 10px 20px;
+}
+
+.what-i-do {
+    color: var(--clr-5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.cards {
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    min-height: 400px;
+}
+
+.card {
+    width: 90%;
+    min-height: 150px;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: var(--clr-3);
+}
+
+.card p {
+    line-height: 1.5em;
+    color: var(--clr-4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card h3 {
+    color: var(--clr-5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 3px;
+}
+
+.edu-exp {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px;
+}
+
+.edu,
+.exp {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--clr-3);
+    border-radius: 20px;
+}
+
+.edu h2,
+.exp h2,
+.tech h2,
+.soft h2 {
+    color: var(--clr-5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.exp h3 {
+    color: var(--clr-5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 15px;
+}
+
+.edu p,
+.exp p,
+.exp ul {
+    color: var(--clr-4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 15px;
+    line-height: 1.5em;
+}
+
+.date {
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+
+.place {
+    font-size: 0.8em;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 150px;
+    width: 100%;
+    padding: 20px;
+}
+
+.tech,
+.soft {
+    width: 40%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--clr-3);
+    border-radius: 20px;
+}
+
+.tech h2,
+.soft h2 {
+    padding-bottom: 20px;
+}
+
+.tech>div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.soft>div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.skill {
+    width: 90%;
+    min-height: 45px;
+    background-color: var(--clr-4);
+    color: var(--clr-3);
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.work-cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+.card-container {
+    width: 350px;
+    height: 400px;
+    perspective: 800px;
+}
+
+.work-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.card-container:hover>.work-card {
+    cursor: pointer;
+    transform: rotateY(180deg);
+
+}
+
+.front,
+.back {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    position: absolute;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    backface-visibility: hidden;
+}
+
+.front {
+    background-color: var(--clr-3);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back {
+    background-color: var(--clr-4);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    transform: rotateY(180deg);
+}
+
+.back h3 {
+    margin-top: 50px;
+    color: var(--clr-2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.back p {
+    color: var(--clr-2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+    line-height: 1.5em;
+
+}
+
+.back a {
+    width: 40%;
+    background-color: var(--clr-3);
+    padding: 15px;
+    border-radius: 20px;
+    color: var(--clr-5);
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.back a:hover {
+    color: var(--clr-4);
+}
+
+.work-card h2 {
+    color: var(--clr-5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.work-img {
+    border-radius: 20px;
+    margin: auto;
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: var(--clr-4);
+    font-family: cursive;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 30px;
+}
+
+.form-box {
+    margin: 20px auto;
+    background-color: var(--clr-3);
+    width: 80%;
+    min-height: 20em;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-group {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.form-box input,
+.form-box textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 2px solid var(--clr-5);
+    background-color: var(--clr-2);
+    border-radius: 20px;
+    color: var(--clr-4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-box label {
+    color: var(--clr-5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    cursor: text;
+    transition: 0.2s;
+}
+
+.form-box button {
+    padding: 10px;
+    background-color: var(--clr-5);
+    color: var(--clr-3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    border: 2px solid var(--clr-5);
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+}
+
+.form-box button:hover {
+    background-color: var(--clr-4);
+    border: 2px solid var(--clr-4);
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+    top: -35px;
+    font-size: 14px;
+}
+
+.foot {
+    width: 100%;
+    background-color: var(--clr-2);
+    color: var(--clr-4);
+    border-radius: 20px 20px 0 0;
+    min-height: 30px;
+}
+
+.foot p {
+    text-align: center;
+    font-size: 1.2em;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
