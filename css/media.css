@@ -136,7 +136,7 @@
         align-items: center;
         width: 100%;
         padding: 20px;
-        min-height: 600px;
+        min-height: 500px;
         margin-bottom: 0;
     }
 
@@ -207,7 +207,7 @@
         align-items: center;
         width: 100%;
         padding: 20px;
-        min-height: 700px;
+        min-height: 500px;
         margin-bottom: 0;
     }
 }
@@ -216,6 +216,18 @@
     .navigation a {
         padding-left: 6px;
         padding-right: 6px;
+    }
+
+    .edu-exp {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        min-height: 600px;
+        margin-bottom: 0;
     }
 
     .card-container {
@@ -295,7 +307,7 @@
         align-items: center;
         width: 100%;
         padding: 20px;
-        min-height: 950px;
+        min-height: 600px;
         margin-bottom: 0;
     }
 
@@ -311,4 +323,19 @@
         font-size: 1.5em;
         margin-bottom: 20px;
     }
+}
+
+@media(max-width: 300px) {
+    .edu-exp {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        min-height: 600px;
+        margin-bottom: 0;
+    }
+
 }

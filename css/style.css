@@ -214,7 +214,7 @@ fieldset {
 
 .info-box {
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
 }
 
 .info-box p {
@@ -237,18 +237,26 @@ fieldset {
     padding-top: 5%;
 }
 
-.sections {
+.section {
     min-height: 33.5em;
     width: 100%;
     background-color: var(--clr-large-box);
     border-radius: 20px;
 }
 
-.about-me {
+.about-me-paragraph {
     color: var(--clr-paragraph);
     font-family: var(--font-main);
     line-height: 1.4em;
     padding: 10px 20px;
+}
+
+.about-me h1 {
+    padding-top: 30px;
+    margin: 20px;
+    font-size: 2em;
+    color: var(--clr-title);
+    font-family: var(--font-main);
 }
 
 .what-i-do {
@@ -288,6 +296,15 @@ fieldset {
     color: var(--clr-title);
     font-family: var(--font-main);
     padding-bottom: 3px;
+}
+
+.resume h1 {
+    padding-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: var(--clr-title);
+    font-family: var(--font-main);
 }
 
 .edu-exp {
@@ -385,6 +402,15 @@ fieldset {
     border-radius: 15px;
     padding: 10px;
     text-align: center;
+}
+
+.work h1 {
+    padding-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: var(--clr-title);
+    font-family: var(--font-main);
 }
 
 .work-cards {
@@ -487,6 +513,14 @@ fieldset {
     height: 250px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.contact h1 {
+    padding-top: 30px;
+    margin-left: 20px;
+    font-size: 2em;
+    color: var(--clr-title);
+    font-family: var(--font-main);
 }
 
 .contact p {
