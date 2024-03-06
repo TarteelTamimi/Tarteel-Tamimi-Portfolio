@@ -57,18 +57,8 @@ hr {
     margin-right: auto;
 }
 
-legend {
-    margin-left: 3%;
-    font-size: 2em;
-    color: var(--clr-title);
-    font-family: var(--font-main);
-}
-
-fieldset {
-    margin: 2%;
-    border: 3px solid var(--clr-title);
-    border-radius: 20px;
-    min-height: 30em;
+ul {
+    list-style: none;
 }
 
 .dark-mood-icon {
@@ -382,13 +372,13 @@ fieldset {
     padding-bottom: 20px;
 }
 
-.tech>div {
+.tech ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
 }
 
-.soft>div {
+.soft ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
