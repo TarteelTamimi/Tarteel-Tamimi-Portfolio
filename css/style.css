@@ -16,9 +16,8 @@
     --clr-small-box: #EFE4CB;
     --clr-paragraph: #8E9B6D;
     --clr-title: #66754C;
-    --font-main: Georgia, 'Times New Roman', Times, serif;
+    --font-main: sans-serif;
     --font-logo: logo-font;
-    --font-sub: cursive;
 }
 
 .dark-mood {
@@ -102,7 +101,7 @@ ul {
 .navigation a {
     color: var(--clr-title);
     font-size: 1.2em;
-    font-family: var(--font-sub);
+    font-family: var(--font-main);
     font-weight: 500;
     padding-left: 30px;
     padding-right: 30px;
@@ -156,8 +155,7 @@ ul {
 }
 
 .icon-box:hover {
-    width: 65px;
-    height: 65px;
+    background-color: var(--clr-large-box);
 
     .icon {
         color: var(--clr-paragraph);
@@ -505,6 +503,10 @@ ul {
     margin-bottom: 20px;
 }
 
+.contact {
+    padding-bottom: 20px;
+}
+
 .contact h1 {
     padding-top: 30px;
     margin-left: 20px;
@@ -515,14 +517,14 @@ ul {
 
 .contact p {
     color: var(--clr-paragraph);
-    font-family: var(--font-sub);
+    font-family: var(--font-main);
     font-size: 1.5em;
     text-align: center;
     padding: 30px;
 }
 
 .form-box {
-    margin: 20px auto;
+    margin: auto;
     background-color: var(--clr-small-box);
     width: 80%;
     min-height: 20em;
@@ -593,6 +595,7 @@ textarea:valid~label {
     color: var(--clr-paragraph);
     border-radius: 20px 20px 0 0;
     min-height: 30px;
+    margin-top: 30px;
 }
 
 .foot p {
