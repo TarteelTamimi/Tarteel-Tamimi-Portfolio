@@ -12,7 +12,7 @@ my portfolio contains four sections:
 - **Work**: contains some projects I worked on.
 - **Contact**: it's a form if you have a message to me.
 
-## 👉 Used Technologies:
+## 👉 Used Technologies
 I built this website using HTML and CSS only.
 #### Here are some details:
 - **Design**: I chose a suitable design from [figma resources](https://figmaresource.com/).
